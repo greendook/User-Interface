@@ -156,17 +156,9 @@ h5 {
     word-spacing: 25px;
     font-size: 25px;
     padding: 20px;
+    font-family: "Acme";
+    background-color: beige;
 }
-/*
-.head{
-	width: 100%;
-}
-.item{
-	display:inline-block;
-	text-align: center;
-	width:49.5%;
-}	
-*/
 
 .container {
     width: 100%;
@@ -204,6 +196,18 @@ h5 {
 .content {
     width: 880px;
     margin: auto;
+}
+
+.bottomcontent {
+    display: inline-block;
+    font-size: 15px;
+    padding: 30px;
+}
+
+.copy {
+    position: absolute;
+    top: 115%;
+    left: 43%;
 }
 
 h3 {
